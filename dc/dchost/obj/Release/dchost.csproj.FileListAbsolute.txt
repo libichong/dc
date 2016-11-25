@@ -1,0 +1,5 @@
+D:\Code\GitHub\dc\dc\dchost\bin\Release\dchost.exe.config
+D:\Code\GitHub\dc\dc\dchost\bin\Release\dchost.exe
+D:\Code\GitHub\dc\dc\dchost\bin\Release\dchost.pdb
+D:\Code\GitHub\dc\dc\dchost\obj\Release\dchost.exe
+D:\Code\GitHub\dc\dc\dchost\obj\Release\dchost.pdb

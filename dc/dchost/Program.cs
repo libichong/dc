@@ -199,6 +199,8 @@ namespace dchost
                     dcAlias = new FileStream(aliasFilePath, FileMode.Open);
                 }
                 AliasMapping.Serialize(dcAlias);
+                dcAlias.Close();
+                return 0;
             }
             var dcFiles = new DirectoryInfo(assmblyPath).GetFiles("*.data", SearchOption.TopDirectoryOnly);
             foreach (var dcFile in dcFiles)
@@ -258,6 +260,7 @@ namespace dchost
                         Console.WriteLine("Elapsed:" + ts.TotalMilliseconds / 1000);
                     }
                 }
+                return 0;
             }
 
             Thread thread = new Thread(StartListening);
